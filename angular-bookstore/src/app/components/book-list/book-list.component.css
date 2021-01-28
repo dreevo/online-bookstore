@@ -1,3 +1,8 @@
 .card-image{
-    object-fit: cover;
+    object-fit: contain;
+    height: 200px;
+}
+
+.category-links{
+    text-decoration: none;
 }

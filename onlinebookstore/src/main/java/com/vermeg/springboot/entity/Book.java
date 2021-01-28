@@ -118,6 +118,14 @@ public class Book {
 		this.updatedOn = updatedOn;
 	}
 
+	public BookCategory getBookCategory() {
+		return bookCategory;
+	}
+
+	public void setBookCategory(BookCategory bookCategory) {
+		this.bookCategory = bookCategory;
+	}
+
 	@Override
 	public String toString() {
 		return "Book [id=" + id + ", sku=" + sku + ", name=" + name + ", description=" + description + ", unitPrice="

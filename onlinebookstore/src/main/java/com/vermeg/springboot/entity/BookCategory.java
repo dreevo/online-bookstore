@@ -51,4 +51,12 @@ public class BookCategory {
 		return "BookCategory [id=" + id + ", categoryName=" + categoryName + "]";
 	}
 
+	public Set<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(Set<Book> books) {
+		this.books = books;
+	}
+
 }
